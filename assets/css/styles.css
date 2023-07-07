@@ -417,10 +417,6 @@ footer .col-lg-3 a:hover,
     right: -55px;
 }
 
-.about-faqs {
-    margin-top: 134px;
-}
-
 /* project page */
 
 #project-title {
@@ -485,9 +481,6 @@ footer img {
 
     #description .row .col-lg-6:first-child {
         height: 70vh;
-    }
-    .about-faqs {
-        margin-top: 337px;
     }
     #faqs .swiper-slide {
         height: 74vh;
