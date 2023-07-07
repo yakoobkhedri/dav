@@ -16,8 +16,21 @@
 body {
     font-family: "TitilliumWeb-Regular";
     user-select: none;
+    background-color: #f1f1f1;
 }
-
+section::-webkit-scrollbar{
+    width: 0;
+}
+section::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+section{
+    scrollbar-width: thin;
+    scrollbar-color: #f1f1f1 transparent;
+}
+section{
+    overflow-x: hidden;
+}
 .primary-color {
     color: #C3EB40;
 }
@@ -324,9 +337,6 @@ footer .col-lg-3 a:hover,
 }
 
 /* description */
-#description {
-    margin-top: 222px;
-}
 
 #description .swiper-slide,
 #faqs .swiper-slide {
@@ -471,10 +481,6 @@ footer img {
 @media only screen and (max-width:992px) {
     #statistics {
         bottom: -532px;
-    }
-
-    #description {
-        margin-top: 417px;
     }
 
     #description .row .col-lg-6:first-child {
