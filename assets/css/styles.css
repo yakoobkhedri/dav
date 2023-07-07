@@ -82,7 +82,7 @@ footer {
 }
 
 header img[alt='logo'] {
-    width: 187px;
+    width: 115px;
 }
 
 header>div:first-child {
@@ -471,7 +471,7 @@ footer .col-lg-3 a:hover,
 
 /* footer */
 footer img {
-    width: 200px;
+    width: 138px;
 }
 
 @media only screen and (max-width:992px) {
